@@ -12,38 +12,37 @@ import org.springframework.stereotype.Component;
 @Component
 public class BookService {
 
-  @Autowired BookDao bookDao;
-  //  BookDaoTemp bookDao;
+    @Autowired
+    BookDao bookDao;
 
-  public Result getBookList(int state, int page, int size) {
-    return bookDao.getBookList(state, page, size);
-  }
+    public Result getBookList(int state, int page, int size) {
+        return bookDao.getBookList(state,page,size);
+    }
 
-  public Result getHotBookList() {
-    return bookDao.getHotBookList();
-  }
+    public Result getHotBookList() {
+        return bookDao.getHotBookList();
+    }
 
-  public Result getHighBookList() {
-    return bookDao.getHighBookList();
-  }
+    public Result getHighBookList() {
+        return bookDao.getHighBookList();
+    }
 
-  public Result getUserBookList(int userId) {
-    return bookDao.getUserBookList(userId);
-  }
+    public Result getUserBookList(int userId) {
+        return bookDao.getUserBookList(userId);
+    }
+    public Result getFavoriteBooks(int userId) {
+        return bookDao.getFavoriteBooks(userId);
+    }
 
-  public Result getFavoriteBooks(int userId) {
-    return bookDao.getFavoriteBooks(userId);
-  }
+    public Result getBookByBookId(int bookId, int userId) {
+        return bookDao.getBookByBookId(bookId,userId);
+    }
 
-  public Result getBookByBookId(int bookId, int userId) {
-    return bookDao.getBookByBookId(bookId, userId);
-  }
+    public Result getBookRecsByBookId(int bookId) {
+        return bookDao.getBookRecsByBookId(bookId);
+    }
 
-  public Result getBookRecsByBookId(int bookId) {
-    return bookDao.getBookRecsByBookId(bookId);
-  }
-
-  public Result getStreamRecsByBookId(int userId) {
-    return bookDao.getStreamRecsByBookId(userId);
-  }
+    public Result getStreamRecsByBookId(int userId) {
+        return bookDao.getStreamRecsByBookId(userId);
+    }
 }

@@ -1,5 +1,7 @@
 package com.wan.POJO;
 
+import com.auth0.jwt.JWT;
+import com.auth0.jwt.algorithms.Algorithm;
 import com.wan.Annotation.AutoIncKey;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -147,5 +149,12 @@ public class User {
     public void setDate(String date) {
       this.date = date;
     }
+  }
+
+  public String getToken(User user) {
+    String token = "";
+    token =
+        JWT.create().withAudience(user.getUserName()).sign(Algorithm.HMAC256(user.getPassword()));
+    return token;
   }
 }

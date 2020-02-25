@@ -1,3 +1,4 @@
+
 spring:
   data:
     mongodb:
@@ -8,7 +9,11 @@ spring:
     timeout: 5000
     database: 0
     password:
-  cache:
-    cache-names:c1
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+  freemarker:
+    cache: false
 server:
   port: 8080
