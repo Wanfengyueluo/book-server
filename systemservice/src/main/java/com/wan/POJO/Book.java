@@ -1,15 +1,19 @@
 package com.wan.POJO;
 
-import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
+
+import java.io.Serializable;
 
 /**
  * @author wanfeng
  * @date 2020/1/31 13:49 书籍信息
  */
 @Document(collection = "Book")
-public class Book {
-  @Id private String _id;
+@org.springframework.data.elasticsearch.annotations.Document(
+    indexName = "es-book",
+    type = "book",
+    refreshInterval = "-1")
+public class Book implements Serializable {
   private Integer bookId;
   private String bookTitle;
   private String bookAuthor;
@@ -23,14 +27,6 @@ public class Book {
 
   public void setBookTitle(String bookTitle) {
     this.bookTitle = bookTitle;
-  }
-
-  public String get_id() {
-    return _id;
-  }
-
-  public void set_id(String _id) {
-    this._id = _id;
   }
 
   public Integer getBookId() {

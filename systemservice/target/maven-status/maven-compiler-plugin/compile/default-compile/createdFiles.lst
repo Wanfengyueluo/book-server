@@ -1,5 +1,6 @@
 com\wan\POJO\Book.class
 com\wan\DAO\BookDaoTemp.class
+com\wan\POJO\IndexQuery.class
 com\wan\POJO\StreamRec$RecsBean.class
 com\wan\App.class
 com\wan\POJO\IncInfo.class
@@ -23,6 +24,7 @@ com\wan\POJO\Receive.class
 com\wan\POJO\UserRec.class
 com\wan\Controller\UserController.class
 com\wan\Result\ResultCode.class
+com\wan\Controller\ElastcSearchController.class
 com\wan\POJO\PageHelper.class
 com\wan\POJO\User$FavoriteBean.class
 com\wan\Annotation\AutoIncKey.class

@@ -31,7 +31,7 @@ public class ElastcSearchController {
     if (!elasticsearchTemplate.indexExists("es-book")) {
       elasticsearchTemplate.createIndex("es-book");
     }
-    List<IndexQuery> queries = new ArrayList<IndexQuery>();
+    List<IndexQuery> queries = new ArrayList<>();
     List<Book> books = mongoTemplate.findAll(Book.class);
     if (books != null && books.size() > 0) {
       for (Book book : books) {
