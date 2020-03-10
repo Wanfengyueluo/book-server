@@ -1,10 +1,13 @@
 package com.wan.DAO;
 
+import com.wan.POJO.BookRec;
 import com.wan.POJO.Rating;
 import com.wan.POJO.Receive;
 import com.wan.POJO.User;
 import com.wan.Result.Result;
 import com.wan.Result.ResultCode;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
@@ -27,6 +30,8 @@ public class UserDao {
   @Autowired MongoTemplate mongoTemplate;
 
   @Autowired StringRedisTemplate redisTemplate;
+
+  private static Logger logger = LoggerFactory.getLogger(UserDao.class.getName());
 
   /**
    * @description: 判断当该用户是否存在
@@ -112,6 +117,7 @@ public class UserDao {
    * @return
    */
   public Result bookRating(Receive receive) {
+    isPutLogger(receive);
     Query query = new Query();
     query.addCriteria(Criteria.where("userId").is(receive.getUserId()));
     List<User> users = mongoTemplate.find(query, User.class);
@@ -143,6 +149,25 @@ public class UserDao {
       return new Result(ResultCode.SUCCESS.getCode(), "评分成功!");
     } else {
       return new Result(ResultCode.FAIL.getCode(), "评分失败!");
+    }
+  }
+
+  private void isPutLogger(Receive receive) {
+    Query query = new Query();
+    query.addCriteria(Criteria.where("bookId").is(receive.getBookId()));
+    List<BookRec> bookRecs = mongoTemplate.find(query, BookRec.class);
+    if (bookRecs.size() > 0) {
+      // 当MongoDB中存在该书籍的推荐列表时，埋点
+      // 用于评分日志埋点，用于flume获取信息
+      System.out.println("============埋点===========");
+      System.out.println("存在推荐列表...");
+      logger.info(
+          "PRODUCT_RATING_PREFIX:"
+              + receive.getUserId()
+              + "|"
+              + receive.getBookId()
+              + "|"
+              + receive.getScore());
     }
   }
 

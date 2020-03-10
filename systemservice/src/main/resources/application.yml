@@ -18,3 +18,14 @@ spring:
       additional-paths: src/main/java
 server:
   port: 8080
+
+swagger:
+  title: 基于大数据技术的图书推荐系统RESTful APIs
+  description: 使用Swagger2构建的Api文档
+  version: 1.0
+  terms-of-service-url: https://github.com/Wanfengyueluo/BookRecommenderSystem
+  contact:
+    name: wanfeng
+    email: wanfengyueluo@qq.com
+  base-package: com.wan
+  base-path: /**

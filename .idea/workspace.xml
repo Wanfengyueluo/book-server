@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90b1ba1a-a62a-4711-a25b-3ba07b43d7d0" name="Default Changelist" comment="版本回退">
+    <list default="true" id="90b1ba1a-a62a-4711-a25b-3ba07b43d7d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/note.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$" beforeDir="false" afterPath="$PROJECT_DIR$" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systemservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/systemservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systemservice/src/main/java/com/wan/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/systemservice/src/main/java/com/wan/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/ElastcSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/ElasticsearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systemservice/src/main/java/com/wan/DAO/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/systemservice/src/main/java/com/wan/DAO/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systemservice/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/systemservice/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systemservice/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/systemservice/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,12 +48,72 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="51">
+                <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/DAO/UserDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state relative-caret-position="31">
+              <caret line="119" selection-start-line="119" selection-end-line="119" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/note.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="57">
+                <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommender/KafkaStreaming/src/main/java/com/wan/kafkastreaming/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/recommender/OnlineRecommender/src/main/scala/com/wan/online/OnlineRecommender.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1501">
+              <caret line="79" column="56" selection-start-line="79" selection-start-column="56" selection-end-line="79" selection-end-column="56" />
+              <folding>
+                <element signature="e#24#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -74,9 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/recommender/pom.xml" />
-        <option value="$PROJECT_DIR$/recommender/Dataloader/pom.xml" />
-        <option value="$PROJECT_DIR$/recommender/Dataloader/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/recommender/OfflineRecommender/src/main/scala/com/wan/offline/Test.scala" />
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Result/ResultCode.java" />
         <option value="$PROJECT_DIR$/recommender/OnlineRecommender/pom.xml" />
@@ -90,7 +157,6 @@
         <option value="$PROJECT_DIR$/recommender/OfflineRecommender/pom.xml" />
         <option value="$PROJECT_DIR$/recommender/StatisticsRecommender/pom.xml" />
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Service/UserService.java" />
-        <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/BookController.java" />
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Result/Result.java" />
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/POJO/BookRec.java" />
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/POJO/AverageBooks.java" />
@@ -102,7 +168,6 @@
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/POJO/StreamRec.java" />
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/POJO/UserRec.java" />
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Listener/SaveEventListener.java" />
-        <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Configuation/CorsConfig.java" />
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Annotation/AutoIncKey.java" />
         <option value="$PROJECT_DIR$/recommender/Dataloader/src/main/scala/com/wan/recommender/Dataloader.scala" />
         <option value="$PROJECT_DIR$/recommender/KafkaStreaming/src/main/java/com/wan/kafkastreaming/Application.java" />
@@ -111,19 +176,25 @@
         <option value="$PROJECT_DIR$/recommender/StatisticsRecommender/src/main/scala/com/wan/statistics/StatisticsRecommender.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/POJO/User.java" />
-        <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/App.java" />
-        <option value="$PROJECT_DIR$/systemservice/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/DAO/BookDaoTemp.java" />
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Service/BookService.java" />
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/DAO/BookDao.java" />
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/POJO/IndexQuery.java" />
-        <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/UserController.java" />
-        <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/DAO/UserDao.java" />
-        <option value="$PROJECT_DIR$/systemservice/pom.xml" />
-        <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/ElastcSearchController.java" />
-        <option value="$PROJECT_DIR$/systemservice/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/POJO/Book.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Configuation/Swagger2.java" />
+        <option value="$PROJECT_DIR$/systemservice/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/ElastcSearchController.java" />
+        <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/BookController.java" />
+        <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/ElasticsearchController.java" />
+        <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/App.java" />
+        <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/Configuation/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/systemservice/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/systemservice/pom.xml" />
+        <option value="$PROJECT_DIR$/systemservice/src/main/java/com/wan/DAO/UserDao.java" />
+        <option value="$PROJECT_DIR$/note.md" />
       </list>
     </option>
   </component>
@@ -151,10 +222,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="325" />
-    <option name="y" value="56" />
+    <option name="x" value="465" />
+    <option name="y" value="95" />
     <option name="width" value="1300" />
-    <option name="height" value="780" />
+    <option name="height" value="835" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -171,24 +242,6 @@
               <item name="ECBookSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="ECBookSystem" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ECBookSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ECBookSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="systemservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ECBookSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ECBookSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="systemservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ECBookSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ECBookSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="systemservice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -200,7 +253,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583770810690" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583830944534" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -211,18 +264,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\ECBookSystem\recommender\Dataloader\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.wan.DAO" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\ECBookSystem\systemservice\src\main\resources" />
       <recent name="E:\ECBookSystem\recommender\KafkaStreaming\src\main\resources" />
       <recent name="E:\ECBookSystem\recommender\OnlineRecommender\src\main\resources" />
       <recent name="E:\ECBookSystem\recommender\Dataloader\src\main\resources" />
       <recent name="E:\ECBookSystem\recommender\OfflineRecommender\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wan.DAO" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\ECBookSystem\recommender\Dataloader\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -237,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.App">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wan.kafkastreaming.Application" />
       <module name="KafkaStreaming" />
@@ -305,9 +358,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.App" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.OnlineRecommender" />
+        <item itemvalue="Spring Boot.App" />
         <item itemvalue="Application.Dataloader" />
         <item itemvalue="Application.OfflineRecommender" />
       </list>
@@ -347,7 +400,8 @@
       <workItem from="1583759815144" duration="1708000" />
       <workItem from="1583761656106" duration="4911000" />
       <workItem from="1583768905288" duration="1563000" />
-      <workItem from="1583770556736" duration="251000" />
+      <workItem from="1583770556736" duration="847000" />
+      <workItem from="1583819223941" duration="10158000" />
     </task>
     <task id="LOCAL-00001" summary="版本回退">
       <created>1583769194558</created>
@@ -363,18 +417,33 @@
       <option name="project" value="LOCAL" />
       <updated>1583769475418</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=":pencil:add .gitignore">
+      <created>1583770985020</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583770985020</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215873000" />
+    <option name="totallyTimeSpent" value="226627000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49873418" visible="true" weight="0.24396783" />
-      <window_info id="Structure" order="1" sideWeight="0.5012658" side_tool="true" weight="0.17761394" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.87113404" visible="true" weight="0.21447721" />
+      <window_info id="Structure" order="1" sideWeight="0.12886597" side_tool="true" visible="true" weight="0.21447721" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -382,64 +451,30 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4979253" weight="0.58536583" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4979253" visible="true" weight="0.1756374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1529745" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.24929178" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.24893919" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020747" side_tool="true" weight="0.416309" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32520324" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3243626" />
       <window_info anchor="bottom" id="Run with VisualVM" order="13" weight="0.32390383" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="14" />
-      <window_info anchor="bottom" id="Spring" order="15" />
+      <window_info anchor="bottom" id="Spring" order="15" weight="0.04249292" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.22184986" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.1313673" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49873418" visible="true" weight="0.22654155" />
-      <window_info id="Structure" order="1" sideWeight="0.5012658" side_tool="true" weight="0.17761394" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4979253" visible="true" weight="0.43767706" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.25742576" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020747" side_tool="true" weight="0.416309" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32719547" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="13" weight="0.32390383" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="14" />
-      <window_info anchor="bottom" id="Spring" order="15" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.22184986" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -463,6 +498,7 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="SHOW_ROOT_NAMES" value="true" />
               <option name="RECENTLY_FILTERED_USER_GROUPS">
                 <collection />
               </option>
@@ -499,7 +535,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="版本回退" />
-    <option name="LAST_COMMIT_MESSAGE" value="版本回退" />
+    <MESSAGE value=":pencil:add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value=":pencil:add .gitignore" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -507,50 +544,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/POJO/BookRec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1336#1337#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1402#1403#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
-            <element signature="e#1502#1503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/POJO/IncInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/POJO/PageHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -833,45 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2016#2017#0" expanded="true" />
-            <element signature="e#2066#2067#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommender/OnlineRecommender/src/main/scala/com/wan/online/OnlineRecommender.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2793">
-          <caret line="147" column="6" selection-start-line="147" selection-start-column="6" selection-end-line="147" selection-end-column="6" />
-          <folding>
-            <element signature="e#24#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemservice/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recommender/KafkaStreaming/src/main/java/com/wan/kafkastreaming/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/DAO/BookDaoTemp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1463">
@@ -896,68 +850,6 @@
             <element signature="e#626#627#0" expanded="true" />
             <element signature="e#675#676#0" expanded="true" />
             <element signature="e#721#722#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemservice/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/DAO/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemservice/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemservice/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/BookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1406">
-          <caret line="82" column="36" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/Configuation/CorsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1019,16 +911,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/ElastcSearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/systemservice/target/classes/com/wan/Controller/ElastcSearchController.class" />
     <entry file="file://$PROJECT_DIR$/systemservice/target/classes/com/wan/DAO/BookDao.class" />
     <entry file="file://$PROJECT_DIR$/systemservice/target/classes/com/wan/POJO/Book.class" />
@@ -1042,20 +924,157 @@
     <entry file="file://$PROJECT_DIR$/systemservice/target/classes/logback.xml" />
     <entry file="file://$PROJECT_DIR$/systemservice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
     <entry file="file://$PROJECT_DIR$/systemservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/Configuation/Swagger2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="33" column="82" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="108" column="27" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1295#1296#0" expanded="true" />
+            <element signature="e#1340#1341#0" expanded="true" />
+            <element signature="e#1532#1533#0" expanded="true" />
+            <element signature="e#1578#1579#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#940#941#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#2016#2017#0" expanded="true" />
+            <element signature="e#2066#2067#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/Configuation/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemservice/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemservice/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/Controller/ElasticsearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="75" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemservice/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <first_editor relative-caret-position="51">
+            <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/DAO/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state relative-caret-position="31">
+          <caret line="119" selection-start-line="119" selection-end-line="119" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/KafkaStreaming/src/main/java/com/wan/kafkastreaming/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/systemservice/src/main/java/com/wan/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recommender/OnlineRecommender/src/main/scala/com/wan/online/OnlineRecommender.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="79" column="56" selection-start-line="79" selection-start-column="56" selection-end-line="79" selection-end-column="56" />
+          <folding>
+            <element signature="e#24#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
